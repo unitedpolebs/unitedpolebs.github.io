@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <title>اسم المشروع</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9fafb;
-            margin: 0;
-            padding: 0;
-            direction: rtl;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #111827;
-        }
-        p {
-            color: #374151;
-            font-size: 18px;
-            line-height: 1.8;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 30px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Creative Hub</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<div class="container">
-    <h1>اسم المشروع</h1>
-    <p>
-        صفحة تعريفية بسيطة لمشروعك.  
-        تقدر تكتب هنا نبذة مختصرة عن خدماتك أو فكرتك.
-    </p>
-    <a class="btn" href="mailto:info@domain.com">تواصل معنا</a>
-</div>
+<header class="hero">
+  <h1>Creative Hub</h1>
+  <p>نحوّل الأفكار إلى مشاريع حقيقية</p>
+</header>
+
+<section class="projects">
+  <div class="project-circle" onclick="location.href='#'">
+    <h3>MaxBytes</h3>
+    <p>حلول تقنية وابتكار</p>
+  </div>
+
+  <div class="project-circle" onclick="location.href='#'">
+    <h3>HVAC Pro</h3>
+    <p>تركيب وصيانة المكيفات</p>
+  </div>
+
+  <div class="project-circle featured" onclick="location.href='gifty-story/index.html'">
+    <h3>Gifty Story</h3>
+    <p>Where every gift tells a story</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Creative Hub</p>
+</footer>
 
 </body>
 </html>
