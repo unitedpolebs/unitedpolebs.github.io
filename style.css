@@ -1,52 +1,42 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   background: #f7f5f2;
-  color: #333;
   text-align: center;
+  margin: 0;
 }
 
-.hero {
-  padding: 80px 20px;
-  background: linear-gradient(to right, #c9b08a, #e8dcc7);
+.lang-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+.lang-switch button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
 .projects {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  padding: 80px 20px;
+  gap: 30px;
+  margin-top: 80px;
   flex-wrap: wrap;
 }
 
-.project-circle {
-  width: 220px;
-  height: 220px;
+.circle {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: white;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  cursor: pointer;
-  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: transform 0.3s ease;
-}
-
-.project-circle:hover {
-  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .featured {
   border: 3px solid #c9b08a;
-}
-
-footer {
-  padding: 20px;
-  background: #eee;
 }
