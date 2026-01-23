@@ -1,72 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Gifty Story</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="setLanguage('ar')">
 
-<header class="hero">
-  <h1>Gifty Story</h1>
-  <p>Where every gift tells a story</p>
-</header>
+<div class="lang-switch">
+  <button onclick="setLanguage('ar')">AR</button>
+  <button onclick="setLanguage('en')">EN</button>
+</div>
 
-<nav class="nav">
-  <a href="#about">About</a>
-  <a href="#concept">Concept</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-</nav>
+<h1 data-key="gifty"></h1>
+<p data-key="slogan"></p>
 
-<section id="about" class="section">
-  <h2>About Gifty Story</h2>
+<section>
+  <h2 data-key="about_title">About</h2>
   <p>
-    Gifty Story is a premium gift experience brand.
-    Every box is thoughtfully curated, unique, and designed to tell a story.
+    Gifty Story is a premium gifting brand focused on emotions,
+    storytelling, and unique experiences.
   </p>
 </section>
 
-<section id="concept" class="section light">
-  <h2>Our Concept</h2>
-  <ul>
-    <li>One-of-One Gift Boxes</li>
-    <li>Luxury Packaging</li>
-    <li>Surprise & Emotional Experience</li>
-    <li>Curated with love & creativity</li>
-  </ul>
-</section>
-
-<section id="services" class="section">
-  <h2>What We Offer</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>Ready Gift Boxes</h3>
-      <p>Exclusive curated boxes – each piece is unique.</p>
-    </div>
-
-    <div class="card">
-      <h3>Surprise Boxes</h3>
-      <p>Tell us your vibe, and we surprise you.</p>
-    </div>
-
-    <div class="card">
-      <h3>Custom Orders</h3>
-      <p>Personalized gifts based on your story.</p>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="section light">
-  <h2>Contact Us</h2>
-  <p>Email: hello@giftystory.com</p>
-  <p>Instagram: @giftystory</p>
-</section>
-
-<footer>
-  <p>© 2026 Gifty Story</p>
-</footer>
-
+<script src="../lang.js"></script>
 </body>
 </html>
