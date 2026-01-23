@@ -40,3 +40,17 @@ body {
 .featured {
   border: 3px solid #c9b08a;
 }
+
+/* Animation basics */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
