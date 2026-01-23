@@ -1,1 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f5f2;
+  color: #333;
+  text-align: center;
+}
 
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #c9b08a, #e8dcc7);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.project-circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  cursor: pointer;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.project-circle:hover {
+  transform: translateY(-10px);
+}
+
+.featured {
+  border: 3px solid #c9b08a;
+}
+
+footer {
+  padding: 20px;
+  background: #eee;
+}
