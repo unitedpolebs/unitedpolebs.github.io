@@ -5,6 +5,7 @@
   <title>Creative Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="setLanguage('ar')">
 
 <div class="lang-switch">
@@ -12,25 +13,26 @@
   <button onclick="setLanguage('en')">EN</button>
 </div>
 
-<h1 data-key="hub_title"></h1>
-<p data-key="hub_desc"></p>
+<header class="hero fade-in">
+  <h1 data-key="hub_title"></h1>
+  <p data-key="hub_desc"></p>
+</header>
 
-<div class="projects">
-
-  <div class="circle">
+<section class="projects">
+  <div class="circle fade-in">
     <h3 data-key="maxbytes"></h3>
   </div>
 
-  <div class="circle">
+  <div class="circle fade-in">
     <h3 data-key="hvac"></h3>
   </div>
 
-  <div class="circle featured" onclick="location.href='gifty-story/'">
+  <div class="circle featured fade-in"
+       onclick="location.href='gifty-story/'">
     <h3 data-key="gifty"></h3>
     <small data-key="slogan"></small>
   </div>
-
-</div>
+</section>
 
 <script src="lang.js"></script>
 </body>
