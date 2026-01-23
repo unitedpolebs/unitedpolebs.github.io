@@ -5,6 +5,7 @@
   <title>Gifty Story</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="setLanguage('ar')">
 
 <div class="lang-switch">
@@ -12,17 +13,33 @@
   <button onclick="setLanguage('en')">EN</button>
 </div>
 
-<h1 data-key="gifty"></h1>
-<p data-key="slogan"></p>
+<header class="hero">
+  <h1 data-key="gifty"></h1>
+  <p data-key="slogan"></p>
+</header>
 
-<section>
-  <h2 data-key="about_title">About</h2>
+<section class="section scroll-animate">
+  <h2>About Gifty Story</h2>
   <p>
     Gifty Story is a premium gifting brand focused on emotions,
     storytelling, and unique experiences.
   </p>
 </section>
 
+<section class="section light scroll-animate">
+  <h2>Our Services</h2>
+  <ul>
+    <li>One-of-One Gift Boxes</li>
+    <li>Luxury Surprise Boxes</li>
+    <li>Custom Orders</li>
+  </ul>
+</section>
+
+<footer>
+  © 2026 Gifty Story
+</footer>
+
 <script src="../lang.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
