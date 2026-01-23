@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Creative Hub</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
 
-<body onload="setLanguage('ar')">
-
-<div class="lang-switch">
-  <button onclick="setLanguage('ar')">AR</button>
-  <button onclick="setLanguage('en')">EN</button>
-</div>
-
-<header class="hero fade-in">
-  <h1 data-key="hub_title"></h1>
-  <p data-key="hub_desc"></p>
+<header class="hero">
+  <h1>Creative Hub</h1>
+  <p>نحوّل الأفكار إلى مشاريع حقيقية</p>
 </header>
 
 <section class="projects">
-  <div class="circle fade-in">
-    <h3 data-key="maxbytes"></h3>
+  <div class="project-circle" onclick="location.href='#'">
+    <h3>MaxBytes</h3>
+    <p>حلول تقنية وابتكار</p>
   </div>
 
-  <div class="circle fade-in">
-    <h3 data-key="hvac"></h3>
+  <div class="project-circle" onclick="location.href='#'">
+    <h3>HVAC Pro</h3>
+    <p>تركيب وصيانة المكيفات</p>
   </div>
 
-  <div class="circle featured fade-in"
-       onclick="location.href='gifty-story/'">
-    <h3 data-key="gifty"></h3>
-    <small data-key="slogan"></small>
+  <div class="project-circle featured" onclick="location.href='gifty-story/index.html'">
+    <h3>Gifty Story</h3>
+    <p>Where every gift tells a story</p>
   </div>
 </section>
 
-<script src="lang.js"></script>
+<footer>
+  <p>© 2026 Creative Hub</p>
+</footer>
+
 </body>
 </html>
