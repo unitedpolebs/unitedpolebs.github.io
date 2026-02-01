@@ -1,11 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <base target="_self">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة المؤسسة - Business Platform</title>
-    <meta name="description" content="منصة متكاملة للمؤسسة تحتوي على صفحات تعريفية، تقديم طلبات، شكاوى واقتراحات، وأعمال">
+    <title data-ar="القطب المتحد - حلول كهربائية متكاملة" data-en="United Pole Est - Integrated Electrical Solutions">القطب المتحد - حلول كهربائية متكاملة</title>
+    <meta name="description" content="شركة مقاولات كهربائية متخصصة في التمديدات الكهربائية، الصيانة، تركيب أنظمة الطاقة الشمسية والمراقبة في المملكة العربية السعودية">
+    <meta name="keywords" content="شركة كهرباء في السعودية, مقاول تمديدات كهربائية, تركيب كاميرات مراقبة, صيانة كهرباء منازل, أنظمة طاقة شمسية, صيانة وتشغيل المباني">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -49,6 +51,11 @@
     </style>
 </head>
 <body class="min-h-screen bg-gray-50">
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/966576072966" target="_blank" class="fixed bottom-6 left-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
     <!-- Language Switcher -->
     <div class="fixed top-4 left-4 z-50">
         <div class="flex items-center space-x-2 space-x-reverse bg-white rounded-full shadow-lg px-4 py-2">
@@ -68,22 +75,23 @@
                 <!-- Logo -->
                 <div class="flex items-center space-x-3 space-x-reverse">
                     <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                        <i class="fas fa-building text-white text-xl"></i>
+                        <i class="fas fa-bolt text-white text-xl"></i>
                     </div>
                     <div>
-                        <h1 class="text-xl font-bold text-dark" data-ar="المؤسسة الوطنية" data-en="National Institution">المؤسسة الوطنية</h1>
-                        <p class="text-sm text-gray-600" data-ar="منصة الأعمال المتكاملة" data-en="Integrated Business Platform">منصة الأعمال المتكاملة</p>
+                        <h1 class="text-xl font-bold text-dark" data-ar="القطب المتحد" data-en="United Pole Est">القطب المتحد</h1>
+                        <p class="text-sm text-gray-600" data-ar="مقاولات كهربائية وصيانة وتشغيل" data-en="Electrical Contracting & Maintenance">مقاولات كهربائية وصيانة وتشغيل</p>
                     </div>
                 </div>
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8 space-x-reverse">
                     <a href="#home" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
-                    <a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="عن المؤسسة" data-en="About">عن المؤسسة</a>
-                    <a href="#services" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="الخدمات" data-en="Services">الخدمات</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="عن الشركة" data-en="About">عن الشركة</a>
+                    <a href="#services" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+                    <a href="#numbers" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="أرقامنا" data-en="Our Numbers">أرقامنا</a>
                     <a href="#requests" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="تقديم طلب" data-en="Submit Request">تقديم طلب</a>
                     <a href="#complaints" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="شكاوى واقتراحات" data-en="Complaints & Suggestions">شكاوى واقتراحات</a>
-                    <a href="#business" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="الأعمال" data-en="Business">الأعمال</a>
+                    <a href="#business" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="مشاريعنا" data-en="Projects">مشاريعنا</a>
                     <a href="#contact" class="nav-link text-gray-700 hover:text-primary font-medium transition-colors duration-300" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a>
                 </div>
 
@@ -97,11 +105,12 @@
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-200">
                 <div class="flex flex-col space-y-3 mt-4">
                     <a href="#home" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
-                    <a href="#about" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="عن المؤسسة" data-en="About">عن المؤسسة</a>
-                    <a href="#services" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="الخدمات" data-en="Services">الخدمات</a>
+                    <a href="#about" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="عن الشركة" data-en="About">عن الشركة</a>
+                    <a href="#services" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+                    <a href="#numbers" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="أرقامنا" data-en="Our Numbers">أرقامنا</a>
                     <a href="#requests" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="تقديم طلب" data-en="Submit Request">تقديم طلب</a>
                     <a href="#complaints" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="شكاوى واقتراحات" data-en="Complaints & Suggestions">شكاوى واقتراحات</a>
-                    <a href="#business" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="الأعمال" data-en="Business">الأعمال</a>
+                    <a href="#business" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="مشاريعنا" data-en="Projects">مشاريعنا</a>
                     <a href="#contact" class="nav-link py-2 text-gray-700 hover:text-primary font-medium" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a>
                 </div>
             </div>
@@ -114,15 +123,15 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-center justify-between">
                     <div class="md:w-1/2 mb-10 md:mb-0">
-                        <h2 class="text-3xl md:text-4xl font-bold mb-4" data-ar="مرحباً بكم في منصة المؤسسة الوطنية" data-en="Welcome to National Institution Platform">مرحباً بكم في منصة المؤسسة الوطنية</h2>
-                        <p class="text-lg mb-6 opacity-90" data-ar="منصة متكاملة تقدم خدمات متنوعة لتلبية احتياجاتكم بكفاءة واحترافية" data-en="An integrated platform offering diverse services to meet your needs efficiently and professionally">منصة متكاملة تقدم خدمات متنوعة لتلبية احتياجاتكم بكفاءة واحترافية</p>
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4" data-ar="القطب المتحد – حلول كهربائية وفنية متكاملة بجودة عالية" data-en="United Pole Est – Professional Electrical & Technical Solutions">القطب المتحد – حلول كهربائية وفنية متكاملة بجودة عالية</h2>
+                        <p class="text-lg mb-6 opacity-90" data-ar="شركة رائدة في مجال المقاولات الكهربائية والصيانة والتشغيل في المملكة العربية السعودية. نقدم حلولاً متكاملة للشركات الكبرى والمقاولين والمجمعات السكنية." data-en="A leading company in electrical contracting, maintenance, and operation in Saudi Arabia. We provide integrated solutions for major companies, contractors, and residential complexes.">شركة رائدة في مجال المقاولات الكهربائية والصيانة والتشغيل في المملكة العربية السعودية. نقدم حلولاً متكاملة للشركات الكبرى والمقاولين والمجمعات السكنية.</p>
                         <div class="flex flex-wrap gap-4">
-                            <a href="#requests" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300" data-ar="تقديم طلب جديد" data-en="Submit New Request">تقديم طلب جديد</a>
-                            <a href="#services" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors duration-300" data-ar="استعراض الخدمات" data-en="Browse Services">استعراض الخدمات</a>
+                            <a href="#contact" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300" data-ar="طلب استشارة مجانية" data-en="Request Free Consultation">طلب استشارة مجانية</a>
+                            <a href="#services" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors duration-300" data-ar="استعراض خدماتنا" data-en="Browse Our Services">استعراض خدماتنا</a>
                         </div>
                     </div>
                     <div class="md:w-1/2">
-                        <img src="https://picsum.photos/600/400?random=1" alt="Business platform illustration" class="rounded-2xl shadow-2xl" loading="lazy">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Electrical solutions and technical services" class="rounded-2xl shadow-2xl" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -132,8 +141,8 @@
         <section id="about" class="py-16 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="عن المؤسسة" data-en="About Us">عن المؤسسة</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نحن مؤسسة رائدة تهدف إلى تقديم أفضل الخدمات والحلول المبتكرة" data-en="We are a leading institution aiming to provide the best services and innovative solutions">نحن مؤسسة رائدة تهدف إلى تقديم أفضل الخدمات والحلول المبتكرة</p>
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="عن القطب المتحد" data-en="About United Pole Est">عن القطب المتحد</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="شركة سعودية متخصصة في تقديم حلول كهربائية وفنية متكاملة بجودة عالية ومعايير سلامة عالمية" data-en="A Saudi company specialized in providing integrated electrical and technical solutions with high quality and global safety standards">شركة سعودية متخصصة في تقديم حلول كهربائية وفنية متكاملة بجودة عالية ومعايير سلامة عالمية</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -142,7 +151,7 @@
                             <i class="fas fa-bullseye text-primary text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-dark mb-3" data-ar="رؤيتنا" data-en="Our Vision">رؤيتنا</h3>
-                        <p class="text-gray-600" data-ar="أن نكون المؤسسة الرائدة في تقديم الحلول المتكاملة والخدمات المتميزة" data-en="To be the leading institution in providing integrated solutions and distinguished services">أن نكون المؤسسة الرائدة في تقديم الحلول المتكاملة والخدمات المتميزة</p>
+                        <p class="text-gray-600" data-ar="أن نكون الشركة الرائدة في تقديم الحلول الكهربائية والفنية المتكاملة في المملكة العربية السعودية والمنطقة" data-en="To be the leading company in providing integrated electrical and technical solutions in Saudi Arabia and the region">أن نكون الشركة الرائدة في تقديم الحلول الكهربائية والفنية المتكاملة في المملكة العربية السعودية والمنطقة</p>
                     </div>
                     
                     <div class="bg-light p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
@@ -150,7 +159,7 @@
                             <i class="fas fa-flag text-secondary text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-dark mb-3" data-ar="رسالتنا" data-en="Our Mission">رسالتنا</h3>
-                        <p class="text-gray-600" data-ar="تقديم خدمات عالية الجودة تساهم في تنمية المجتمع وتحقيق التميز المؤسسي" data-en="Providing high-quality services that contribute to community development and institutional excellence">تقديم خدمات عالية الجودة تساهم في تنمية المجتمع وتحقيق التميز المؤسسي</p>
+                        <p class="text-gray-600" data-ar="تقديم خدمات كهربائية وفنية عالية الجودة مع الالتزام بأعلى معايير السلامة والكفاءة لتحقيق رضا العملاء" data-en="Providing high-quality electrical and technical services while adhering to the highest safety and efficiency standards to achieve customer satisfaction">تقديم خدمات كهربائية وفنية عالية الجودة مع الالتزام بأعلى معايير السلامة والكفاءة لتحقيق رضا العملاء</p>
                     </div>
                     
                     <div class="bg-light p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
@@ -158,7 +167,7 @@
                             <i class="fas fa-star text-accent text-2xl"></i>
                         </div>
                         <h3 class="text-xl font-semibold text-dark mb-3" data-ar="قيمنا" data-en="Our Values">قيمنا</h3>
-                        <p class="text-gray-600" data-ar="الشفافية، الجودة، الابتكار، العمل الجماعي، والمسؤولية الاجتماعية" data-en="Transparency, Quality, Innovation, Teamwork, and Social Responsibility">الشفافية، الجودة، الابتكار، العمل الجماعي، والمسؤولية الاجتماعية</p>
+                        <p class="text-gray-600" data-ar="الجودة، السلامة، الالتزام، الابتكار، والشفافية في جميع أعمالنا" data-en="Quality, Safety, Commitment, Innovation, and Transparency in all our work">الجودة، السلامة، الالتزام، الابتكار، والشفافية في جميع أعمالنا</p>
                     </div>
                 </div>
             </div>
@@ -168,41 +177,247 @@
         <section id="services" class="py-16 bg-gray-50">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نقدم مجموعة واسعة من الخدمات المصممة خصيصاً لتلبية احتياجاتكم" data-en="We offer a wide range of services specifically designed to meet your needs">نقدم مجموعة واسعة من الخدمات المصممة خصيصاً لتلبية احتياجاتكم</p>
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="خدماتنا الكهربائية والفنية" data-en="Our Electrical & Technical Services">خدماتنا الكهربائية والفنية</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نقدم مجموعة متكاملة من الخدمات الكهربائية والفنية للقطاعين التجاري والسكني في المملكة العربية السعودية" data-en="We provide a comprehensive range of electrical and technical services for commercial and residential sectors in Saudi Arabia">نقدم مجموعة متكاملة من الخدمات الكهربائية والفنية للقطاعين التجاري والسكني في المملكة العربية السعودية</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
                         <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-file-alt text-primary text-xl"></i>
+                            <i class="fas fa-bolt text-primary text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="الخدمات الإلكترونية" data-en="E-Services">الخدمات الإلكترونية</h3>
-                        <p class="text-gray-600 text-sm" data-ar="خدمات إلكترونية متكاملة لتسهيل المعاملات" data-en="Integrated electronic services to facilitate transactions">خدمات إلكترونية متكاملة لتسهيل المعاملات</p>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="التمديدات الكهربائية" data-en="Electrical Extensions">التمديدات الكهربائية</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تنفيذ تمديدات كهربائية متكاملة للمباني السكنية والتجارية والصناعية" data-en="Implementation of integrated electrical extensions for residential, commercial, and industrial buildings">تنفيذ تمديدات كهربائية متكاملة للمباني السكنية والتجارية والصناعية</p>
                     </div>
                     
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
                         <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-handshake text-secondary text-xl"></i>
+                            <i class="fas fa-tools text-secondary text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="الدعم الفني" data-en="Technical Support">الدعم الفني</h3>
-                        <p class="text-gray-600 text-sm" data-ar="دعم فني متخصص على مدار الساعة" data-en="Specialized technical support 24/7">دعم فني متخصص على مدار الساعة</p>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="صيانة الأعطال الكهربائية" data-en="Electrical Fault Maintenance">صيانة الأعطال الكهربائية</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تشخيص وإصلاح الأعطال الكهربائية بسرعة وكفاءة عالية" data-en="Diagnosis and repair of electrical faults quickly and efficiently">تشخيص وإصلاح الأعطال الكهربائية بسرعة وكفاءة عالية</p>
                     </div>
                     
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
                         <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-chart-line text-accent text-xl"></i>
+                            <i class="fas fa-th-large text-accent text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="الاستشارات" data-en="Consultations">الاستشارات</h3>
-                        <p class="text-gray-600 text-sm" data-ar="استشارات متخصصة في مختلف المجالات" data-en="Specialized consultations in various fields">استشارات متخصصة في مختلف المجالات</p>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="تركيب لوحات التوزيع" data-en="Distribution Panel Installation">تركيب لوحات التوزيع</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تصميم وتركيب لوحات توزيع كهربائية حسب المواصفات القياسية السعودية" data-en="Design and installation of electrical distribution panels according to Saudi standards">تصميم وتركيب لوحات توزيع كهربائية حسب المواصفات القياسية السعودية</p>
                     </div>
                     
                     <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
                         <div class="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center mb-4">
-                            <i class="fas fa-certificate text-green-500 text-xl"></i>
+                            <i class="fas fa-video text-green-500 text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="التدريب والتأهيل" data-en="Training & Qualification">التدريب والتأهيل</h3>
-                        <p class="text-gray-600 text-sm" data-ar="برامج تدريبية وتأهيلية متخصصة" data-en="Specialized training and qualification programs">برامج تدريبية وتأهيلية متخصصة</p>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="أنظمة كاميرات المراقبة" data-en="Surveillance Camera Systems">أنظمة كاميرات المراقبة</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تركيب وتشغيل أنظمة مراقبة متكاملة للمباني والمنشآت" data-en="Installation and operation of integrated surveillance systems for buildings and facilities">تركيب وتشغيل أنظمة مراقبة متكاملة للمباني والمنشآت</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-network-wired text-blue-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="شبكات الاتصالات والإنترنت" data-en="Communication & Internet Networks">شبكات الاتصالات والإنترنت</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تصميم وتركيب شبكات اتصالات وإنترنت للمباني التجارية والسكنية" data-en="Design and installation of communication and internet networks for commercial and residential buildings">تصميم وتركيب شبكات اتصالات وإنترنت للمباني التجارية والسكنية</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+                        <div class="w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-sun text-yellow-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="أنظمة الطاقة الشمسية" data-en="Solar Energy Systems">أنظمة الطاقة الشمسية</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تركيب أنظمة طاقة شمسية متكاملة للمنازل والشركات" data-en="Installation of integrated solar energy systems for homes and businesses">تركيب أنظمة طاقة شمسية متكاملة للمنازل والشركات</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+                        <div class="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-building text-purple-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="صيانة وتشغيل المباني" data-en="Building Maintenance & Operation">صيانة وتشغيل المباني</h3>
+                        <p class="text-gray-600 text-sm" data-ar="خدمات صيانة وتشغيل شاملة للمباني والمنشآت التجارية" data-en="Comprehensive maintenance and operation services for commercial buildings and facilities">خدمات صيانة وتشغيل شاملة للمباني والمنشآت التجارية</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+                        <div class="w-12 h-12 bg-red-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-shield-alt text-red-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-2" data-ar="أنظمة الإنذار والحماية" data-en="Alarm & Protection Systems">أنظمة الإنذار والحماية</h3>
+                        <p class="text-gray-600 text-sm" data-ar="تركيب أنظمة إنذار متكاملة للحماية من الحراق والاختراق" data-en="Installation of integrated alarm systems for fire and intrusion protection">تركيب أنظمة إنذار متكاملة للحماية من الحراق والاختراق</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Numbers Section -->
+        <section id="numbers" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="أرقامنا التي نتحدث بها" data-en="Our Numbers Speak for Themselves">أرقامنا التي نتحدث بها</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="إنجازاتنا وأرقامنا تعكس مدى التزامنا بالجودة والتميز في تقديم الخدمات الكهربائية والفنية" data-en="Our achievements and numbers reflect our commitment to quality and excellence in providing electrical and technical services">إنجازاتنا وأرقامنا تعكس مدى التزامنا بالجودة والتميز في تقديم الخدمات الكهربائية والفنية</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl p-6 text-center shadow-lg">
+                        <div class="text-4xl font-bold mb-2">+150</div>
+                        <div class="text-lg font-medium" data-ar="مشروع منفذ" data-en="Completed Projects">مشروع منفذ</div>
+                        <p class="text-sm opacity-90 mt-2" data-ar="مشاريع كهربائية ناجحة" data-en="Successful electrical projects">مشاريع كهربائية ناجحة</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-secondary to-accent text-white rounded-xl p-6 text-center shadow-lg">
+                        <div class="text-4xl font-bold mb-2">+80</div>
+                        <div class="text-lg font-medium" data-ar="عميل تجاري" data-en="Commercial Clients">عميل تجاري</div>
+                        <p class="text-sm opacity-90 mt-2" data-ar="شركات ومؤسسات راضية" data-en="Satisfied companies & institutions">شركات ومؤسسات راضية</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-accent to-yellow-500 text-white rounded-xl p-6 text-center shadow-lg">
+                        <div class="text-4xl font-bold mb-2">5</div>
+                        <div class="text-lg font-medium" data-ar="فنيين متخصصين" data-en="Specialized Technicians">فنيين متخصصين</div>
+                        <p class="text-sm opacity-90 mt-2" data-ar="خبرة وكفاءة عالية" data-en="High experience & efficiency">خبرة وكفاءة عالية</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-xl p-6 text-center shadow-lg">
+                        <div class="text-4xl font-bold mb-2">98%</div>
+                        <div class="text-lg font-medium" data-ar="رضا العملاء" data-en="Client Satisfaction">رضا العملاء</div>
+                        <p class="text-sm opacity-90 mt-2" data-ar="نسبة رضا عالية ومستمرة" data-en="High & continuous satisfaction rate">نسبة رضا عالية ومستمرة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Service Section -->
+        <section class="py-16 bg-gradient-to-r from-red-50 to-orange-50">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="md:w-2/3 mb-8 md:mb-0">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center ml-3">
+                                <i class="fas fa-ambulance text-white text-xl"></i>
+                            </div>
+                            <h2 class="text-2xl font-bold text-dark" data-ar="خدمة الطوارئ على مدار الساعة" data-en="24/7 Emergency Service">خدمة الطوارئ على مدار الساعة</h2>
+                        </div>
+                        <p class="text-gray-700 mb-4" data-ar="نقدم خدمة طوارئ كهربائية على مدار الساعة خلال 24 ساعة. فريقنا الفني المدرب جاهز للاستجابة السريعة لأي طارئ كهربائي في أي وقت." data-en="We provide 24/7 electrical emergency service. Our trained technical team is ready for quick response to any electrical emergency at any time.">نقدم خدمة طوارئ كهربائية على مدار الساعة خلال 24 ساعة. فريقنا الفني المدرب جاهز للاستجابة السريعة لأي طارئ كهربائي في أي وقت.</p>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-red-500 text-xl ml-2"></i>
+                            <span class="text-xl font-bold text-red-600">+966 57 607 5335</span>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3 text-center">
+                        <div class="inline-block bg-white rounded-full p-6 shadow-lg">
+                            <div class="text-5xl font-bold text-red-500 mb-2">24</div>
+                            <div class="text-gray-700 font-medium" data-ar="ساعة" data-en="Hours">ساعة</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety & Quality Standards Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="معايير السلامة والجودة" data-en="Safety & Quality Standards">معايير السلامة والجودة</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نلتزم بأعلى معايير السلامة والجودة في جميع مشاريعنا وخدماتنا" data-en="We adhere to the highest safety and quality standards in all our projects and services">نلتزم بأعلى معايير السلامة والجودة في جميع مشاريعنا وخدماتنا</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-light p-6 rounded-xl shadow-sm">
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-certificate text-blue-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-3" data-ar="الالتزام باللوائح السعودية" data-en="Compliance with Saudi Regulations">الالتزام باللوائح السعودية</h3>
+                        <p class="text-gray-600" data-ar="نعمل وفقاً للوائح والأنظمة السعودية في مجال الكهرباء والسلامة" data-en="We operate according to Saudi regulations and systems in electricity and safety">نعمل وفقاً للوائح والأنظمة السعودية في مجال الكهرباء والسلامة</p>
+                    </div>
+                    
+                    <div class="bg-light p-6 rounded-xl shadow-sm">
+                        <div class="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-check-circle text-green-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-3" data-ar="استخدام معدات معتمدة" data-en="Using Certified Equipment">استخدام معدات معتمدة</h3>
+                        <p class="text-gray-600" data-ar="نستخدم فقط المعدات والأجهزة المعتمدة من الجهات الرقابية السعودية" data-en="We use only equipment and devices certified by Saudi regulatory authorities">نستخدم فقط المعدات والأجهزة المعتمدة من الجهات الرقابية السعودية</p>
+                    </div>
+                    
+                    <div class="bg-light p-6 rounded-xl shadow-sm">
+                        <div class="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-user-shield text-purple-500 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-dark mb-3" data-ar="فريق فني مدرب ومعتمد" data-en="Trained & Certified Technical Team">فريق فني مدرب ومعتمد</h3>
+                        <p class="text-gray-600" data-ar="فريقنا الفني مدرب على أعلى مستوى ومعتمد من الجهات المختصة" data-en="Our technical team is highly trained and certified by relevant authorities">فريقنا الفني مدرب على أعلى مستوى ومعتمد من الجهات المختصة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="تقييمات عملائنا" data-en="Customer Reviews">تقييمات عملائنا</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="آراء عملائنا تثبت جودة خدماتنا وتميزنا في مجال المقاولات الكهربائية" data-en="Our customers' opinions prove the quality of our services and our excellence in electrical contracting">آراء عملائنا تثبت جودة خدماتنا وتميزنا في مجال المقاولات الكهربائية</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center ml-3">
+                                <i class="fas fa-user-tie text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark" data-ar="مدير منشأة تجارية" data-en="Commercial Facility Manager">مدير منشأة تجارية</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic" data-ar=""
+"تعاملنا مع القطب المتحد لتنفيذ التمديدات الكهربائية لمجمعنا التجاري وكان الأداء ممتازاً. الالتزام بالمواعيد والدقة في التنفيذ." data-en=""
+"We dealt with United Pole Est for electrical extensions of our commercial complex and the performance was excellent. Commitment to deadlines and accuracy in implementation.">""تعاملنا مع القطب المتحد لتنفيذ التمديدات الكهربائية لمجمعنا التجاري وكان الأداء ممتازاً. الالتزام بالمواعيد والدقة في التنفيذ."</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center ml-3">
+                                <i class="fas fa-home text-secondary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark" data-ar="مالك فيلا" data-en="Villa Owner">مالك فيلا</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic" data-ar=""
+"فريق محترف جداً في تركيب أنظمة الطاقة الشمسية والتمديدات الكهربائية للفيلا. التنفيذ كان سريعاً والجودة عالية." data-en=""
+"Very professional team in installing solar energy systems and electrical extensions for the villa. Implementation was fast and quality was high.">""فريق محترف جداً في تركيب أنظمة الطاقة الشمسية والتمديدات الكهربائية للفيلا. التنفيذ كان سريعاً والجودة عالية."</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center ml-3">
+                                <i class="fas fa-building text-accent"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-dark" data-ar="مسؤول مجمع سكني" data-en="Residential Complex Official">مسؤول مجمع سكني</h4>
+                                <div class="flex text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic" data-ar=""
+"خدمات الصيانة الدورية التي يقدمونها لمجمعنا السكني ممتازة. الاستجابة سريعة للأعطال والتصليحات دقيقة." data-en=""
+"The periodic maintenance services they provide for our residential complex are excellent. Quick response to faults and accurate repairs.">""خدمات الصيانة الدورية التي يقدمونها لمجمعنا السكني ممتازة. الاستجابة سريعة للأعطال والتصليحات دقيقة."</p>
                     </div>
                 </div>
             </div>
@@ -212,31 +427,36 @@
         <section id="requests" class="py-16 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="تقديم الطلبات" data-en="Submit Requests">تقديم الطلبات</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="يمكنكم تقديم طلباتكم بسهولة من خلال النموذج الإلكتروني أدناه" data-en="You can easily submit your requests through the electronic form below">يمكنكم تقديم طلباتكم بسهولة من خلال النموذج الإلكتروني أدناه</p>
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="تقديم طلب خدمة" data-en="Submit Service Request">تقديم طلب خدمة</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="يمكنكم تقديم طلبات الخدمات الكهربائية والفنية بسهولة من خلال النموذج الإلكتروني أدناه" data-en="You can easily submit electrical and technical service requests through the electronic form below">يمكنكم تقديم طلبات الخدمات الكهربائية والفنية بسهولة من خلال النموذج الإلكتروني أدناه</p>
                 </div>
                 
                 <div class="max-w-4xl mx-auto bg-light rounded-2xl shadow-lg p-6 md:p-8">
                     <form id="request-form" class="space-y-6">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label class="block text-gray-700 mb-2 font-medium" for="request-type" data-ar="نوع الطلب" data-en="Request Type">نوع الطلب</label>
+                                <label class="block text-gray-700 mb-2 font-medium" for="request-type" data-ar="نوع الخدمة المطلوبة" data-en="Required Service Type">نوع الخدمة المطلوبة</label>
                                 <select id="request-type" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required>
-                                    <option value="" data-ar="اختر نوع الطلب" data-en="Select Request Type">اختر نوع الطلب</option>
-                                    <option value="service" data-ar="طلب خدمة" data-en="Service Request">طلب خدمة</option>
-                                    <option value="information" data-ar="طلب معلومات" data-en="Information Request">طلب معلومات</option>
-                                    <option value="support" data-ar="طلب دعم فني" data-en="Technical Support Request">طلب دعم فني</option>
-                                    <option value="other" data-ar="طلب آخر" data-en="Other Request">طلب آخر</option>
+                                    <option value="" data-ar="اختر نوع الخدمة" data-en="Select Service Type">اختر نوع الخدمة</option>
+                                    <option value="electrical-extensions" data-ar="التمديدات الكهربائية" data-en="Electrical Extensions">التمديدات الكهربائية</option>
+                                    <option value="maintenance" data-ar="صيانة الأعطال الكهربائية" data-en="Electrical Fault Maintenance">صيانة الأعطال الكهربائية</option>
+                                    <option value="distribution-panels" data-ar="تركيب لوحات التوزيع" data-en="Distribution Panel Installation">تركيب لوحات التوزيع</option>
+                                    <option value="surveillance" data-ar="أنظمة كاميرات المراقبة" data-en="Surveillance Camera Systems">أنظمة كاميرات المراقبة</option>
+                                    <option value="networks" data-ar="شبكات الاتصالات والإنترنت" data-en="Communication & Internet Networks">شبكات الاتصالات والإنترنت</option>
+                                    <option value="solar" data-ar="أنظمة الطاقة الشمسية" data-en="Solar Energy Systems">أنظمة الطاقة الشمسية</option>
+                                    <option value="building-maintenance" data-ar="صيانة وتشغيل المباني" data-en="Building Maintenance & Operation">صيانة وتشغيل المباني</option>
+                                    <option value="alarm-systems" data-ar="أنظمة الإنذار والحماية" data-en="Alarm & Protection Systems">أنظمة الإنذار والحماية</option>
+                                    <option value="consultation" data-ar="استشارة فنية" data-en="Technical Consultation">استشارة فنية</option>
                                 </select>
                             </div>
                             
                             <div>
-                                <label class="block text-gray-700 mb-2 font-medium" for="priority" data-ar="الأولوية" data-en="Priority">الأولوية</label>
+                                <label class="block text-gray-700 mb-2 font-medium" for="priority" data-ar="أولوية الطلب" data-en="Request Priority">أولوية الطلب</label>
                                 <select id="priority" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required>
-                                    <option value="normal" data-ar="عادية" data-en="Normal">عادية</option>
-                                    <option value="medium" data-ar="متوسطة" data-en="Medium">متوسطة</option>
-                                    <option value="high" data-ar="عالية" data-en="High">عالية</option>
-                                    <option value="urgent" data-ar="عاجلة" data-en="Urgent">عاجلة</option>
+                                    <option value="normal" data-ar="عادية (رد خلال 48 ساعة)" data-en="Normal (Response within 48 hours)">عادية (رد خلال 48 ساعة)</option>
+                                    <option value="medium" data-ar="متوسطة (رد خلال 24 ساعة)" data-en="Medium (Response within 24 hours)">متوسطة (رد خلال 24 ساعة)</option>
+                                    <option value="high" data-ar="عالية (رد خلال 12 ساعة)" data-en="High (Response within 12 hours)">عالية (رد خلال 12 ساعة)</option>
+                                    <option value="urgent" data-ar="طارئة (رد خلال ساعتين)" data-en="Emergency (Response within 2 hours)">طارئة (رد خلال ساعتين)</option>
                                 </select>
                             </div>
                         </div>
@@ -260,18 +480,23 @@
                             </div>
                             
                             <div>
-                                <label class="block text-gray-700 mb-2 font-medium" for="organization" data-ar="المؤسسة/الشركة" data-en="Organization/Company">المؤسسة/الشركة</label>
+                                <label class="block text-gray-700 mb-2 font-medium" for="organization" data-ar="اسم الشركة/المؤسسة" data-en="Company/Organization Name">اسم الشركة/المؤسسة</label>
                                 <input type="text" id="organization" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300">
                             </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium" for="project-location" data-ar="موقع المشروع" data-en="Project Location">موقع المشروع</label>
+                            <input type="text" id="project-location" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required data-ar="المدينة والحي" data-en="City & District">
                         </div>
                         
                         <div>
                             <label class="block text-gray-700 mb-2 font-medium" for="request-details" data-ar="تفاصيل الطلب" data-en="Request Details">تفاصيل الطلب</label>
-                            <textarea id="request-details" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى وصف طلبك بالتفصيل..." data-en="Please describe your request in detail...">يرجى وصف طلبك بالتفصيل...</textarea>
+                            <textarea id="request-details" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى وصف طلبك بالتفصيل (نوع المبنى، المساحة، المتطلبات الخاصة...)" data-en="Please describe your request in detail (building type, area, special requirements...)">يرجى وصف طلبك بالتفصيل (نوع المبنى، المساحة، المتطلبات الخاصة...)</textarea>
                         </div>
                         
                         <div>
-                            <label class="block text-gray-700 mb-2 font-medium" data-ar="المرفقات" data-en="Attachments">المرفقات</label>
+                            <label class="block text-gray-700 mb-2 font-medium" data-ar="المرفقات (اختياري)" data-en="Attachments (Optional)">المرفقات (اختياري)</label>
                             <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-primary transition-colors duration-300">
                                 <i class="fas fa-cloud-upload-alt text-3xl text-gray-400 mb-3"></i>
                                 <p class="text-gray-600 mb-2" data-ar="اسحب وأفلت الملفات هنا أو انقر للاختيار" data-en="Drag and drop files here or click to select">اسحب وأفلت الملفات هنا أو انقر للاختيار</p>
@@ -283,11 +508,11 @@
                         
                         <div class="flex items-center">
                             <input type="checkbox" id="terms" class="w-4 h-4 text-primary rounded focus:ring-primary" required>
-                            <label for="terms" class="mr-2 text-gray-700" data-ar="أوافق على الشروط والأحكام" data-en="I agree to the terms and conditions">أوافق على الشروط والأحكام</label>
+                            <label for="terms" class="mr-2 text-gray-700" data-ar="أوافق على الشروط والأحكام وسياسة الخصوصية" data-en="I agree to the terms, conditions and privacy policy">أوافق على الشروط والأحكام وسياسة الخصوصية</label>
                         </div>
                         
                         <div class="text-center">
-                            <button type="submit" class="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg" data-ar="إرسال الطلب" data-en="Submit Request">إرسال الطلب</button>
+                            <button type="submit" class="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg" data-ar="إرسال طلب الخدمة" data-en="Submit Service Request">إرسال طلب الخدمة</button>
                         </div>
                     </form>
                 </div>
@@ -299,7 +524,7 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-dark mb-4" data-ar="الشكاوى والاقتراحات" data-en="Complaints & Suggestions">الشكاوى والاقتراحات</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نرحب بملاحظاتكم واقتراحاتكم لتحسين خدماتنا" data-en="We welcome your feedback and suggestions to improve our services">نرحب بملاحظاتكم واقتراحاتكم لتحسين خدماتنا</p>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نرحب بملاحظاتكم واقتراحاتكم لتحسين خدماتنا الكهربائية والفنية" data-en="We welcome your feedback and suggestions to improve our electrical and technical services">نرحب بملاحظاتكم واقتراحاتكم لتحسين خدماتنا الكهربائية والفنية</p>
                 </div>
                 
                 <div class="max-w-4xl mx-auto">
@@ -318,20 +543,22 @@
                                     <label class="block text-gray-700 mb-2 text-sm font-medium" for="complaint-type" data-ar="نوع الشكوى" data-en="Complaint Type">نوع الشكوى</label>
                                     <select id="complaint-type" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-500/20 outline-none transition-all duration-300" required>
                                         <option value="" data-ar="اختر نوع الشكوى" data-en="Select Complaint Type">اختر نوع الشكوى</option>
-                                        <option value="service" data-ar="شكوى خدمة" data-en="Service Complaint">شكوى خدمة</option>
-                                        <option value="staff" data-ar="شكوى موظف" data-en="Staff Complaint">شكوى موظف</option>
-                                        <option value="technical" data-ar="شكوى فنية" data-en="Technical Complaint">شكوى فنية</option>
+                                        <option value="service-quality" data-ar="جودة الخدمة" data-en="Service Quality">جودة الخدمة</option>
+                                        <option value="delay" data-ar="تأخير في التنفيذ" data-en="Implementation Delay">تأخير في التنفيذ</option>
+                                        <option value="technical-error" data-ar="خطأ فني" data-en="Technical Error">خطأ فني</option>
+                                        <option value="staff-behavior" data-ar="سلوك الموظفين" data-en="Staff Behavior">سلوك الموظفين</option>
+                                        <option value="pricing" data-ar="التسعير" data-en="Pricing">التسعير</option>
                                         <option value="other" data-ar="شكوى أخرى" data-en="Other Complaint">شكوى أخرى</option>
                                     </select>
                                 </div>
                                 
                                 <div>
                                     <label class="block text-gray-700 mb-2 text-sm font-medium" for="complaint-details" data-ar="تفاصيل الشكوى" data-en="Complaint Details">تفاصيل الشكوى</label>
-                                    <textarea id="complaint-details" rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-500/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى وصف الشكوى بالتفصيل..." data-en="Please describe the complaint in detail...">يرجى وصف الشكوى بالتفصيل...</textarea>
+                                    <textarea id="complaint-details" rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-500/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى وصف الشكوى بالتفصيل مع ذكر تاريخ الخدمة ورقم الطلب إن وجد..." data-en="Please describe the complaint in detail including service date and request number if available...">يرجى وصف الشكوى بالتفصيل مع ذكر تاريخ الخدمة ورقم الطلب إن وجد...</textarea>
                                 </div>
                                 
                                 <div>
-                                    <label class="block text-gray-700 mb-2 text-sm font-medium" for="desired-solution" data-ar="الحل المطلوب" data-en="Desired Solution">الحل المطلوب</data-ar></label>
+                                    <label class="block text-gray-700 mb-2 text-sm font-medium" for="desired-solution" data-ar="الحل المطلوب" data-en="Desired Solution">الحل المطلوب</label>
                                     <textarea id="desired-solution" rows="3" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-500/20 outline-none transition-all duration-300 resize-none" data-ar="ما هو الحل الذي تتوقعه؟" data-en="What solution do you expect?">ما هو الحل الذي تتوقعه؟</textarea>
                                 </div>
                                 
@@ -353,9 +580,11 @@
                                     <label class="block text-gray-700 mb-2 text-sm font-medium" for="suggestion-type" data-ar="نوع الاقتراح" data-en="Suggestion Type">نوع الاقتراح</label>
                                     <select id="suggestion-type" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all duration-300" required>
                                         <option value="" data-ar="اختر نوع الاقتراح" data-en="Select Suggestion Type">اختر نوع الاقتراح</option>
-                                        <option value="improvement" data-ar="تحسين خدمة" data-en="Service Improvement">تحسين خدمة</option>
+                                        <option value="service-improvement" data-ar="تحسين خدمة" data-en="Service Improvement">تحسين خدمة</option>
                                         <option value="new-service" data-ar="خدمة جديدة" data-en="New Service">خدمة جديدة</option>
-                                        <option value="process" data-ar="تحسين إجراء" data-en="Process Improvement">تحسين إجراء</option>
+                                        <option value="process-improvement" data-ar="تحسين إجراء" data-en="Process Improvement">تحسين إجراء</option>
+                                        <option value="safety-improvement" data-ar="تحسين السلامة" data-en="Safety Improvement">تحسين السلامة</option>
+                                        <option value="cost-reduction" data-ar="تخفيض التكاليف" data-en="Cost Reduction">تخفيض التكاليف</option>
                                         <option value="other" data-ar="اقتراح آخر" data-en="Other Suggestion">اقتراح آخر</option>
                                     </select>
                                 </div>
@@ -367,7 +596,7 @@
                                 
                                 <div>
                                     <label class="block text-gray-700 mb-2 text-sm font-medium" for="suggestion-details" data-ar="تفاصيل الاقتراح" data-en="Suggestion Details">تفاصيل الاقتراح</label>
-                                    <textarea id="suggestion-details" rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى شرح الاقتراح بالتفصيل..." data-en="Please explain the suggestion in detail...">يرجى شرح الاقتراح بالتفصيل...</textarea>
+                                    <textarea id="suggestion-details" rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all duration-300 resize-none" required data-ar="يرجى شرح الاقتراح بالتفصيل مع ذكر الفائدة المتوقعة..." data-en="Please explain the suggestion in detail including expected benefits...">يرجى شرح الاقتراح بالتفصيل مع ذكر الفائدة المتوقعة...</textarea>
                                 </div>
                                 
                                 <div>
@@ -402,20 +631,20 @@
         <section id="business" class="py-16 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="الأعمال والمشاريع" data-en="Business & Projects">الأعمال والمشاريع</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="استعرض أحدث أعمالنا ومشاريعنا الناجحة" data-en="Browse our latest works and successful projects">استعرض أحدث أعمالنا ومشاريعنا الناجحة</p>
+                    <h2 class="text-3xl font-bold text-dark mb-4" data-ar="مشاريعنا السابقة" data-en="Our Previous Projects">مشاريعنا السابقة</h2>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="استعرض بعض مشاريعنا الناجحة في مجال المقاولات الكهربائية والصيانة" data-en="Browse some of our successful projects in electrical contracting and maintenance">استعرض بعض مشاريعنا الناجحة في مجال المقاولات الكهربائية والصيانة</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Project 1 -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                         <div class="relative overflow-hidden">
-                            <img src="https://picsum.photos/600/400?random=2" alt="Digital Transformation Project" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
-                            <div class="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="مشروع" data-en="Project">مشروع</div>
+                            <img src="https://picsum.photos/600/400?random=2" alt="Commercial Complex Electrical Project" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="مشروع تجاري" data-en="Commercial Project">مشروع تجاري</div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="التحول الرقمي" data-en="Digital Transformation">التحول الرقمي</h3>
-                            <p class="text-gray-600 mb-4" data-ar="تحويل العمليات التقليدية إلى رقمية لتحسين الكفاءة والإنتاجية" data-en="Transforming traditional processes into digital to improve efficiency and productivity">تحويل العمليات التقليدية إلى رقمية لتحسين الكفاءة والإنتاجية</p>
+                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="تمديدات كهربائية لمجمع تجاري" data-en="Electrical Extensions for Commercial Complex">تمديدات كهربائية لمجمع تجاري</h3>
+                            <p class="text-gray-600 mb-4" data-ar="تنفيذ تمديدات كهربائية متكاملة لمجمع تجاري بمساحة 5000 متر مربع في الرياض" data-en="Implementation of integrated electrical extensions for a 5000 sqm commercial complex in Riyadh">تنفيذ تمديدات كهربائية متكاملة لمجمع تجاري بمساحة 5000 متر مربع في الرياض</p>
                             <div class="flex justify-between items-center">
                                 <span class="text-sm text-gray-500" data-ar="مكتمل" data-en="Completed">مكتمل</span>
                                 <a href="#" class="text-primary hover:text-blue-700 font-medium flex items-center" data-ar="عرض التفاصيل" data-en="View Details">
@@ -429,14 +658,14 @@
                     <!-- Project 2 -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                         <div class="relative overflow-hidden">
-                            <img src="https://picsum.photos/600/400?random=3" alt="Infrastructure Development" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
-                            <div class="absolute top-4 left-4 bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="جاري التنفيذ" data-en="In Progress">جاري التنفيذ</div>
+                            <img src="https://picsum.photos/600/400?random=3" alt="Solar Energy System Installation" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute top-4 left-4 bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="طاقة شمسية" data-en="Solar Energy">طاقة شمسية</div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="تطوير البنية التحتية" data-en="Infrastructure Development">تطوير البنية التحتية</h3>
-                            <p class="text-gray-600 mb-4" data-ar="تطوير البنية التحتية التكنولوجية لدعم النمو المستقبلي" data-en="Developing technological infrastructure to support future growth">تطوير البنية التحتية التكنولوجية لدعم النمو المستقبلي</p>
+                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="تركيب نظام طاقة شمسية لفيلا" data-en="Solar Energy System Installation for Villa">تركيب نظام طاقة شمسية لفيلا</h3>
+                            <p class="text-gray-600 mb-4" data-ar="تركيب نظام طاقة شمسية متكامل بقدرة 10 كيلوواط لفيلا سكنية في جدة" data-en="Installation of integrated solar energy system with 10kW capacity for a residential villa in Jeddah">تركيب نظام طاقة شمسية متكامل بقدرة 10 كيلوواط لفيلا سكنية في جدة</p>
                             <div class="flex justify-between items-center">
-                                <span class="text-sm text-gray-500" data-ar="75% مكتمل" data-en="75% Completed">75% مكتمل</span>
+                                <span class="text-sm text-gray-500" data-ar="مكتمل" data-en="Completed">مكتمل</span>
                                 <a href="#" class="text-primary hover:text-blue-700 font-medium flex items-center" data-ar="عرض التفاصيل" data-en="View Details">
                                     <span data-ar="عرض التفاصيل" data-en="View Details">عرض التفاصيل</span>
                                     <i class="fas fa-arrow-left mr-2"></i>
@@ -448,40 +677,20 @@
                     <!-- Project 3 -->
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                         <div class="relative overflow-hidden">
-                            <img src="https://picsum.photos/600/400?random=4" alt="Training Program" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
-                            <div class="absolute top-4 left-4 bg-accent text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="برنامج" data-en="Program">برنامج</div>
+                            <img src="https://picsum.photos/600/400?random=4" alt="Building Maintenance Project" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                            <div class="absolute top-4 left-4 bg-accent text-white px-3 py-1 rounded-full text-sm font-semibold" data-ar="صيانة مباني" data-en="Building Maintenance">صيانة مباني</div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="برنامج التطوير المهني" data-en="Professional Development Program">برنامج التطوير المهني</h3>
-                            <p class="text-gray-600 mb-4" data-ar="برنامج تدريبي متكامل لتنمية مهارات الموظفين والقيادات" data-en="Comprehensive training program to develop employee and leadership skills">برنامج تدريبي متكامل لتنمية مهارات الموظفين والقيادات</p>
+                            <h3 class="text-xl font-semibold text-dark mb-2" data-ar="صيانة وتشغيل مبنى إداري" data-en="Administrative Building Maintenance & Operation">صيانة وتشغيل مبنى إداري</h3>
+                            <p class="text-gray-600 mb-4" data-ar="عقد صيانة وتشغيل سنوي لمبنى إداري مكون من 10 طوابق في الدمام" data-en="Annual maintenance and operation contract for a 10-floor administrative building in Dammam">عقد صيانة وتشغيل سنوي لمبنى إداري مكون من 10 طوابق في الدمام</p>
                             <div class="flex justify-between items-center">
-                                <span class="text-sm text-gray-500" data-ar="مستمر" data-en="Ongoing">مستمر</span>
+                                <span class="text-sm text-gray-500" data-ar="جاري التنفيذ" data-en="In Progress">جاري التنفيذ</span>
                                 <a href="#" class="text-primary hover:text-blue-700 font-medium flex items-center" data-ar="عرض التفاصيل" data-en="View Details">
                                     <span data-ar="عرض التفاصيل" data-en="View Details">عرض التفاصيل</span>
                                     <i class="fas fa-arrow-left mr-2"></i>
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <!-- Business Stats -->
-                <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="bg-light rounded-xl p-6 text-center">
-                        <div class="text-3xl font-bold text-primary mb-2">150+</div>
-                        <div class="text-gray-700 font-medium" data-ar="مشروع مكتمل" data-en="Completed Projects">مشروع مكتمل</div>
-                    </div>
-                    <div class="bg-light rounded-xl p-6 text-center">
-                        <div class="text-3xl font-bold text-secondary mb-2">500+</div>
-                        <div class="text-gray-700 font-medium" data-ar="عميل راضٍ" data-en="Satisfied Clients">عميل راضٍ</div>
-                    </div>
-                    <div class="bg-light rounded-xl p-6 text-center">
-                        <div class="text-3xl font-bold text-accent mb-2">50+</div>
-                        <div class="text-gray-700 font-medium" data-ar="جائزة وتكريم" data-en="Awards & Recognitions">جائزة وتكريم</div>
-                    </div>
-                    <div class="bg-light rounded-xl p-6 text-center">
-                        <div class="text-3xl font-bold text-green-500 mb-2">98%</div>
-                        <div class="text-gray-700 font-medium" data-ar="معدل رضا العملاء" data-en="Client Satisfaction Rate">معدل رضا العملاء</div>
                     </div>
                 </div>
             </div>
@@ -492,7 +701,7 @@
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-dark mb-4" data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</h2>
-                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نحن هنا لمساعدتك. تواصل معنا عبر أي من القنوات التالية" data-en="We're here to help. Contact us through any of the following channels">نحن هنا لمساعدتك. تواصل معنا عبر أي من القنوات التالية</p>
+                    <p class="text-gray-600 max-w-3xl mx-auto" data-ar="نحن هنا لمساعدتك في جميع احتياجاتك الكهربائية والفنية. تواصل معنا عبر أي من القنوات التالية" data-en="We're here to help with all your electrical and technical needs. Contact us through any of the following channels">نحن هنا لمساعدتك في جميع احتياجاتك الكهربائية والفنية. تواصل معنا عبر أي من القنوات التالية</p>
                 </div>
                 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -508,7 +717,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-medium text-gray-800 mb-1" data-ar="العنوان" data-en="Address">العنوان</h4>
-                                        <p class="text-gray-600" data-ar="شارع الملك فهد، الرياض، المملكة العربية السعودية" data-en="King Fahd Road, Riyadh, Saudi Arabia">شارع الملك فهد، الرياض، المملكة العربية السعودية</p>
+                                        <p class="text-gray-600" data-ar="المملكة العربية السعودية" data-en="Saudi Arabia">المملكة العربية السعودية</p>
                                     </div>
                                 </div>
                                 
@@ -517,407 +726,53 @@
                                         <i class="fas fa-phone text-secondary"></i>
                                     </div>
                                     <div>
-                                        <h4 class="font-medium text-gray-800 mb-1" data-ar="الهاتف" data-en="Phone">الهاتف</h4>
-                                        <p class="text-gray-600">+966 11 123 4567</p>
+                                        <h4 class="font-medium text-gray-800 mb-1" data-ar="الإدارة العامة" data-en="General Management">الإدارة العامة</h4>
+                                        <p class="text-gray-600 font-semibold">+966 57 607 2966</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start">
+                                    <div class="w-10 h-10 bg-green-500/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+                                        <i class="fas fa-headset text-green-500"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium text-gray-800 mb-1" data-ar="الدعم الفني والطوارئ" data-en="Technical Support & Emergency">الدعم الفني والطوارئ</h4>
+                                        <p class="text-gray-600 font-semibold">+966 57 607 5335</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start">
+                                    <div class="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+                                        <i class="fas fa-briefcase text-accent"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium text-gray-800 mb-1" data-ar="المبيعات والمشاريع" data-en="Sales & Projects">المبيعات والمشاريع</h4>
+                                        <p class="text-gray-600 font-semibold">+966 57 607 3075</p>
                                     </div>
                                 </div>
                                 
                                 <div class="flex items-start">
-                                    <div class="w-10 h-10 bg-accent/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
-                                        <i class="fas fa-envelope text-accent"></i>
+                                    <div class="w-10 h-10 bg-purple-500/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+                                        <i class="fas fa-envelope text-purple-500"></i>
                                     </div>
                                     <div>
                                         <h4 class="font-medium text-gray-800 mb-1" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h4>
-                                        <p class="text-gray-600">info@institution.com</p>
+                                        <p class="text-gray-600">info@pole.sa</p>
+                                        <p class="text-gray-600">sales@pole.sa</p>
+                                        <p class="text-gray-600">support@pole.sa</p>
                                     </div>
                                 </div>
                                 
                                 <div class="flex items-start">
-                                    <div class="w-10 h-10 bg-green-500/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
-                                        <i class="fas fa-clock text-green-500"></i>
+                                    <div class="w-10 h-10 bg-yellow-500/10 rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+                                        <i class="fas fa-clock text-yellow-500"></i>
                                     </div>
                                     <div>
                                         <h4 class="font-medium text-gray-800 mb-1" data-ar="ساعات العمل" data-en="Working Hours">ساعات العمل</h4>
-                                        <p class="text-gray-600" data-ar="الأحد - الخميس: 8 صباحاً - 4 مساءً" data-en="Sunday - Thursday: 8 AM - 4 PM">الأحد - الخميس: 8 صباحاً - 4 مساءً</p>
+                                        <p class="text-gray-600" data-ar="الأحد - الخميس: 8 صباحاً - 5 مساءً" data-en="Sunday - Thursday: 8 AM - 5 PM">الأحد - الخميس: 8 صباحاً - 5 مساءً</p>
+                                        <p class="text-gray-600 text-sm" data-ar="خدمة الطوارئ: 24 ساعة" data-en="Emergency Service: 24 hours">خدمة الطوارئ: 24 ساعة</p>
                                     </div>
                                 </div>
                             </div>
                             
-                            <!-- Social Media -->
-                            <div class="mt-8 pt-6 border-t border-gray-200">
-                                <h4 class="font-medium text-gray-800 mb-4" data-ar="تابعنا على" data-en="Follow Us">تابعنا على</h4>
-                                <div class="flex space-x-3 space-x-reverse">
-                                    <a href="#" class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-blue-400 text-white rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors duration-300">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors duration-300">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-blue-800 text-white rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors duration-300">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Contact Form -->
-                    <div class="lg:col-span-2">
-                        <div class="bg-white rounded-2xl shadow-lg p-6">
-                            <h3 class="text-xl font-semibold text-dark mb-6" data-ar="أرسل لنا رسالة" data-en="Send Us a Message">أرسل لنا رسالة</h3>
-                            
-                            <form id="contact-form" class="space-y-6">
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div>
-                                        <label class="block text-gray-700 mb-2 font-medium" for="contact-name" data-ar="الاسم الكامل" data-en="Full Name">الاسم الكامل</label>
-                                        <input type="text" id="contact-name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required>
-                                    </div>
-                                    
-                                    <div>
-                                        <label class="block text-gray-700 mb-2 font-medium" for="contact-email" data-ar="البريد الإلكتروني" data-en="Email Address">البريد الإلكتروني</label>
-                                        <input type="email" id="contact-email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required>
-                                    </div>
-                                </div>
-                                
-                                <div>
-                                    <label class="block text-gray-700 mb-2 font-medium" for="contact-subject" data-ar="الموضوع" data-en="Subject">الموضوع</label>
-                                    <input type="text" id="contact-subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300" required>
-                                </div>
-                                
-                                <div>
-                                    <label class="block text-gray-700 mb-2 font-medium" for="contact-message" data-ar="الرسالة" data-en="Message">الرسالة</label>
-                                    <textarea id="contact-message" rows="6" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all duration-300 resize-none" required data-ar="اكتب رسالتك هنا..." data-en="Write your message here...">اكتب رسالتك هنا...</textarea>
-                                </div>
-                                
-                                <div class="text-left">
-                                    <button type="submit" class="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg" data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <!-- Logo and Description -->
-                <div>
-                    <div class="flex items-center space-x-3 space-x-reverse mb-4">
-                        <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                            <i class="fas fa-building text-primary text-lg"></i>
-                        </div>
-                        <h3 class="text-xl font-bold" data-ar="المؤسسة الوطنية" data-en="National Institution">المؤسسة الوطنية</h3>
-                    </div>
-                    <p class="text-gray-300 text-sm mb-4" data-ar="مؤسسة رائدة تقدم خدمات متكاملة وحلول مبتكرة لتلبية احتياجات العملاء" data-en="A leading institution providing integrated services and innovative solutions to meet customer needs">مؤسسة رائدة تقدم خدمات متكاملة وحلول مبتكرة لتلبية احتياجات العملاء</p>
-                </div>
-                
-                <!-- Quick Links -->
-                <div>
-                    <h4 class="text-lg font-semibold mb-4" data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
-                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="عن المؤسسة" data-en="About">عن المؤسسة</a></li>
-                        <li><a href="#services" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
-                        <li><a href="#business" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="الأعمال" data-en="Business">الأعمال</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Services Links -->
-                <div>
-                    <h4 class="text-lg font-semibold mb-4" data-ar="الخدمات" data-en="Services">الخدمات</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#requests" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="تقديم طلبات" data-en="Submit Requests">تقديم طلبات</a></li>
-                        <li><a href="#complaints" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="شكاوى واقتراحات" data-en="Complaints & Suggestions">شكاوى واقتراحات</a></li>
-                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</a></li>
-                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-300" data-ar="الأسئلة الشائعة" data-en="FAQ">الأسئلة الشائعة</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Newsletter -->
-                <div>
-                    <h4 class="text-lg font-semibold mb-4" data-ar="النشرة الإخبارية" data-en="Newsletter">النشرة الإخبارية</h4>
-                    <p class="text-gray-300 text-sm mb-4" data-ar="اشترك في نشرتنا الإخبارية لتصلك آخر التحديثات" data-en="Subscribe to our newsletter for the latest updates">اشترك في نشرتنا الإخبارية لتصلك آخر التحديثات</p>
-                    <div class="flex">
-                        <input type="email" placeholder="بريدك الإلكتروني" class="flex-grow px-4 py-2 rounded-r-lg text-gray-800 outline-none" dir="ltr">
-                        <button class="bg-primary text-white px-4 py-2 rounded-l-lg hover:bg-blue-700 transition-colors duration-300" data-ar="اشتراك" data-en="Subscribe">اشتراك</button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Copyright -->
-            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
-                <p class="text-gray-400 text-sm" data-ar="© 2024 المؤسسة الوطنية. جميع الحقوق محفوظة." data-en="© 2024 National Institution. All rights reserved.">© 2024 المؤسسة الوطنية. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Success Modal -->
-    <div id="success-modal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
-        <div class="bg-white rounded-2xl p-8 max-w-md mx-4">
-            <div class="text-center">
-                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-check text-green-500 text-2xl"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-dark mb-2" id="modal-title" data-ar="تم الإرسال بنجاح" data-en="Successfully Sent">تم الإرسال بنجاح</h3>
-                <p class="text-gray-600 mb-6" id="modal-message" data-ar="شكراً لك، سنقوم بالرد عليك في أقرب وقت ممكن." data-en="Thank you, we will respond to you as soon as possible.">شكراً لك، سنقوم بالرد عليك في أقرب وقت ممكن.</p>
-                <button id="close-modal" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300" data-ar="حسناً" data-en="OK">حسناً</button>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Define data at the beginning
-        const languageData = {
-            "ar": {
-                "direction": "rtl",
-                "fontFamily": "'Noto Sans Arabic', sans-serif"
-            },
-            "en": {
-                "direction": "ltr",
-                "fontFamily": "'Inter', sans-serif"
-            }
-        };
-
-        const currentLanguage = "ar";
-
-        // Language switching functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            // Language switcher
-            const langButtons = document.querySelectorAll('.lang-btn');
-            const langArBtn = document.getElementById('lang-ar');
-            const langEnBtn = document.getElementById('lang-en');
-            
-            langButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const lang = this.getAttribute('data-lang');
-                    
-                    // Update button states
-                    langButtons.forEach(btn => {
-                        btn.classList.remove('active', 'bg-primary', 'text-white');
-                        btn.classList.add('bg-gray-200', 'text-gray-700', 'hover:bg-gray-300');
-                    });
-                    
-                    this.classList.remove('bg-gray-200', 'text-gray-700', 'hover:bg-gray-300');
-                    this.classList.add('active', 'bg-primary', 'text-white');
-                    
-                    // Switch language
-                    switchLanguage(lang);
-                });
-            });
-
-            // Mobile menu toggle
-            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-            
-            mobileMenuBtn.addEventListener('click', function() {
-                mobileMenu.classList.toggle('hidden');
-                const icon = this.querySelector('i');
-                if (mobileMenu.classList.contains('hidden')) {
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                } else {
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-times');
-                }
-            });
-
-            // Form submissions
-            const requestForm = document.getElementById('request-form');
-            const complaintForm = document.getElementById('complaint-form');
-            const suggestionForm = document.getElementById('suggestion-form');
-            const contactForm = document.getElementById('contact-form');
-            const trackBtn = document.getElementById('track-btn');
-            
-            const successModal = document.getElementById('success-modal');
-            const closeModal = document.getElementById('close-modal');
-            const modalTitle = document.getElementById('modal-title');
-            const modalMessage = document.getElementById('modal-message');
-
-            // Request form submission
-            requestForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                showSuccessModal(
-                    currentLanguage === 'ar' ? 'تم إرسال طلبك بنجاح' : 'Your request has been submitted successfully',
-                    currentLanguage === 'ar' ? 'سيتم مراجعة طلبك والرد عليك خلال 24-48 ساعة عمل.' : 'Your request will be reviewed and you will receive a response within 24-48 working hours.'
-                );
-                this.reset();
-            });
-
-            // Complaint form submission
-            complaintForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                showSuccessModal(
-                    currentLanguage === 'ar' ? 'تم إرسال شكواك بنجاح' : 'Your complaint has been submitted successfully',
-                    currentLanguage === 'ar' ? 'سيتم دراسة شكواك والرد عليك خلال 3 أيام عمل.' : 'Your complaint will be studied and you will receive a response within 3 working days.'
-                );
-                this.reset();
-            });
-
-            // Suggestion form submission
-            suggestionForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                showSuccessModal(
-                    currentLanguage === 'ar' ? 'تم إرسال اقتراحك بنجاح' : 'Your suggestion has been submitted successfully',
-                    currentLanguage === 'ar' ? 'شكراً لاقتراحك القيم، سيتم دراسته من قبل الفريق المختص.' : 'Thank you for your valuable suggestion, it will be studied by the specialized team.'
-                );
-                this.reset();
-            });
-
-            // Contact form submission
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                showSuccessModal(
-                    currentLanguage === 'ar' ? 'تم إرسال رسالتك بنجاح' : 'Your message has been sent successfully',
-                    currentLanguage === 'ar' ? 'شكراً لتواصلك معنا، سنرد عليك في أقرب وقت ممكن.' : 'Thank you for contacting us, we will respond to you as soon as possible.'
-                );
-                this.reset();
-            });
-
-            // Tracking button
-            trackBtn.addEventListener('click', function() {
-                const trackingNumber = document.getElementById('tracking-number').value;
-                if (trackingNumber.trim()) {
-                    showSuccessModal(
-                        currentLanguage === 'ar' ? 'جاري البحث...' : 'Searching...',
-                        currentLanguage === 'ar' ? `جاري البحث عن حالة المرجع: ${trackingNumber}` : `Searching for status of reference: ${trackingNumber}`
-                    );
-                }
-            });
-
-            // Close modal
-            closeModal.addEventListener('click', function() {
-                successModal.classList.add('hidden');
-            });
-
-            // Close modal when clicking outside
-            successModal.addEventListener('click', function(e) {
-                if (e.target === this) {
-                    this.classList.add('hidden');
-                }
-            });
-
-            // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        // Close mobile menu if open
-                        if (!mobileMenu.classList.contains('hidden')) {
-                            mobileMenu.classList.add('hidden');
-                            const icon = mobileMenuBtn.querySelector('i');
-                            icon.classList.remove('fa-times');
-                            icon.classList.add('fa-bars');
-                        }
-                        
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 80,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-
-            // File upload functionality
-            const fileInput = document.getElementById('attachments');
-            const fileUploadArea = fileInput.parentElement;
-            
-            fileUploadArea.addEventListener('dragover', function(e) {
-                e.preventDefault();
-                this.classList.add('border-primary', 'bg-blue-50');
-            });
-            
-            fileUploadArea.addEventListener('dragleave', function(e) {
-                e.preventDefault();
-                this.classList.remove('border-primary', 'bg-blue-50');
-            });
-            
-            fileUploadArea.addEventListener('drop', function(e) {
-                e.preventDefault();
-                this.classList.remove('border-primary', 'bg-blue-50');
-                fileInput.files = e.dataTransfer.files;
-                updateFileList();
-            });
-            
-            fileInput.addEventListener('change', updateFileList);
-            
-            function updateFileList() {
-                const files = fileInput.files;
-                if (files.length > 0) {
-                    const fileList = document.createElement('div');
-                    fileList.className = 'mt-3 p-3 bg-gray-50 rounded-lg';
-                    fileList.innerHTML = `<p class="text-sm font-medium text-gray-700 mb-2">${currentLanguage === 'ar' ? 'الملفات المرفوعة:' : 'Uploaded files:'}</p>`;
-                    
-                    Array.from(files).forEach((file, index) => {
-                        const fileItem = document.createElement('div');
-                        fileItem.className = 'flex items-center justify-between text-sm text-gray-600 mb-1';
-                        fileItem.innerHTML = `
-                            <span>${file.name}</span>
-                            <span>${(file.size / 1024 / 1024).toFixed(2)} MB</span>
-                        `;
-                        fileList.appendChild(fileItem);
-                    });
-                    
-                    // Remove existing file list if present
-                    const existingList = fileUploadArea.querySelector('.file-list');
-                    if (existingList) {
-                        existingList.remove();
-                    }
-                    
-                    fileList.classList.add('file-list');
-                    fileUploadArea.appendChild(fileList);
-                }
-            }
-        });
-
-        function switchLanguage(lang) {
-            // Update HTML direction and lang attribute
-            document.documentElement.setAttribute('dir', languageData[lang].direction);
-            document.documentElement.setAttribute('lang', lang);
-            
-            // Update all elements with data-ar and data-en attributes
-            document.querySelectorAll('[data-ar], [data-en]').forEach(element => {
-                if (lang === 'ar') {
-                    if (element.hasAttribute('data-ar')) {
-                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                            element.setAttribute('placeholder', element.getAttribute('data-ar'));
-                        } else {
-                            element.textContent = element.getAttribute('data-ar');
-                        }
-                    }
-                } else {
-                    if (element.hasAttribute('data-en')) {
-                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                            element.setAttribute('placeholder', element.getAttribute('data-en'));
-                        } else {
-                            element.textContent = element.getAttribute('data-en');
-                        }
-                    }
-                }
-            });
-            
-            // Update current language variable
-            currentLanguage = lang;
-        }
-
-        function showSuccessModal(title, message) {
-            modalTitle.textContent = title;
-            modalMessage.textContent = message;
-            successModal.classList.remove('hidden');
-        }
-
-        // Initialize with Arabic
-        switchLanguage('ar');
-    </script>
-</body>
-</html>
+                            <!--
